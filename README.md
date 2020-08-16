@@ -62,6 +62,8 @@ Para realizar esse desafio você deverá cumprir os seguintes pré-requisitos:
 
 ### 4.2. Resumo das tarefas
 
+Se você completou o desafio 1, não precisa instanciar novamente o Watson Studio e o CLoud Object Storage (pode usar as mesmas instâncias usadas no desafio anterior).
+
 1. Instanciar o Watson Studio (Cloud Pak for Data as a Service) na IBM Cloud;
 2. Instanciar o Watson Machine Learning na IBM Cloud;
 3. Instanciar o Cloud Object Storage na IBM Cloud;
