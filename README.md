@@ -29,11 +29,11 @@
 
 Fundado em 2003 e com sede no Recife, o Grupo Ser Educacional (B3 SEER3) é um dos maiores grupos privados de educação do Brasil e líder nas regiões Nordeste e Norte em alunos matriculados. A Companhia oferece cursos de graduação, pós-graduação, técnicos e ensino a distância e está presente em 26 estados e no Distrito Federal, em uma base consolidada de aproximadamente 185 mil alunos. A Companhia opera sob as marcas UNINASSAU, UNINASSAU – Centro Universitário Maurício de Nassau, UNINABUCO - Centro Universitário Joaquim Nabuco, Faculdades UNINABUCO, Escolas Técnicas Joaquim Nabuco e Maurício de Nassau, UNIVERITAS/UNG, UNAMA – Universidade da Amazônia e Faculdade da Amazônia e UNIVERITAS – Centro Universitário Universus Veritas, Faculdades UNIVERITAS e a UNINORTE – Centro Universitário do Norte, por meio das quais oferece 1.904 cursos. A UNINASSAU, uma instituição do Grupo Ser Educacional, tem foco na inovação e na trabalhabilidade, oferta aos seus alunos uma formação integral e transformadora. A UNINASSAU prepara profissionais para atuar no ambiente competitivo e dinâmico do mercado de trabalho, empenhados na Responsabilidade Socioambiental, fazendo escolhas, buscando alternativas e valorizando suas competências para criar novas oportunidades. Preocupa-se, acima de tudo, com o ser humano e com sua realização pessoal e profissional.
 
-<!--<div align="center">
-    <a href="">
+<div align="center">
+    <a href="https://www.youtube.com/watch?v=Wt9qtWyUSjA">
        <img width="50%" src="./Docs/Images/apr-02-pt.png" alt='video'>
     </a>
-</div>-->
+</div>
 
 ### 1.2. Premiação
 
