@@ -10,5 +10,8 @@ RUN pip3 install --upgrade pip #Atualização do gerenciador de pacotes
 RUN pip3 install jupyter #Instalação do pacote jupyter notebook
 RUN pip3 install numpy matplotlib scipy requests pandas xgboost seaborn #Dependências
 
+#Dependências para o notebook 2
+RUN apt-get install -y git zip
+
 WORKDIR /desafio-2-2020
 COPY . /desafio-2-2020
