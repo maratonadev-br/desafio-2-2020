@@ -1,0 +1,12 @@
+version: '2'
+services:
+  desafio-2-2020:
+    container_name: desafio-2-2020
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/desafio-2-2020
+    ports:
+      - '8888:8888'
+    command: bash -c "while [ true ]; do sleep 10; done"
