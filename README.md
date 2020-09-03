@@ -49,7 +49,7 @@ Atualmente é possível a realização de uma tutoria remota automática com o a
 
 ## 3. Objetivo
 
-Neste desafio, o participante irá utilizar ferramentas da IBM como o *Watson Machine Learning* e o *Cloud Pak for Data* para construir um modelo baseado em *machine learning* e integrá-lo com uma solução de assistente virtual, voltada para a tutoria remota. Sua tarefa será aprimorar um modelo já fornecido e integrar os diversos serviços envolvidos nessa solução!
+Neste desafio, o participante irá utilizar ferramentas da IBM como o *Watson Machine Learning* e o *Cloud Pak for Data* para construir um modelo baseado em *machine learning*, capaz de ser integrado com uma solução de assistente virtual voltada para a tutoria remota. Sua tarefa será aprimorar um modelo já fornecido e integrar os diversos serviços envolvidos nessa solução!
 
 ## 4. Desenvolvendo a solução
 
@@ -65,12 +65,11 @@ Para realizar esse desafio você deverá cumprir os seguintes pré-requisitos:
 Se você completou o desafio 1, não precisa instanciar novamente o Watson Studio e o Cloud Object Storage (pode usar as mesmas instâncias usadas no desafio anterior).
 
 1. Instanciar o Watson Studio (Cloud Pak for Data as a Service) na IBM Cloud;
-2. Instanciar o Watson Machine Learning na IBM Cloud;
-3. Instanciar o Cloud Object Storage na IBM Cloud;
-4. Importar o projeto fornecido neste repositório [cloud-pak-project-ptbr-2.zip](./cloud-pak-project-ptbr-2.zip) no Watson Studio;
-5. Ler e executar as instruções contidas no Notebook ``parte-1.ipynb``;
-6. Ler e executar as instruções contidas no Notebook ``parte-2.ipynb``;
-7. Acessar a página https://uninassau.maratona.dev, testar e submeter sua solução.
+2. Instanciar o Cloud Object Storage na IBM Cloud;
+3. Criar um novo projeto em branco no Watson Studio: https://dataplatform.cloud.ibm.com/projects/new-project?context=cpdaas;
+4. Importar em seu projeto o notebook fornecido neste repositório [Assets/Notebooks/notebook.ipynb](./Assets/Notebooks/notebook.ipynb) no Watson Studio;
+5. Ler e executar as instruções contidas no Notebook ``notebook.ipynb``;
+6. Acessar a página https://uninassau.maratona.dev e submeter sua solução.
 
 ### 4.3. Desenvolvimento
 
@@ -80,6 +79,12 @@ Por motivos de simplicidade, serão focados em dados de quatro disciplinas do cu
 
 No vídeo abaixo, todo o processo de desenvolvimento da solução é explicado em detalhes. Se você é um iniciante no mundo da ciência de dados e do *machine learning*, é altamente recomendado que você assista ao video para sanar qualquer tipo de dúvida acerca deste desafio.
 
+**ATENÇÃO!** UPDATE NO PROCESSO DE SUBMISSÃO
+
+Veja o vídeo https://youtu.be/S6FCiGSmFQs com as novas instruções (apenas para submissões realizadas após o dia 3/SET)
+
+OBS: abaixo é apresentado o vídeo do tutorial, que ainda pode ser útil. Nele é demonstrada também a integração do modelo criado com o *Watson Machine Learning*. Após o dia 2 de Setembro de 2020, o *Watson Machine Learning* foi atualizado e essa etapa não é mais necessária para submeter o desafio.
+
 <div align="center">
     <a href="https://youtu.be/DKCgfi27PkM">
        <img width="50%" src="./Docs/Images/tuto-02-pt.png" alt='video'>
@@ -88,19 +93,13 @@ No vídeo abaixo, todo o processo de desenvolvimento da solução é explicado e
 
 ## 5. Submissão
 
-Para realizar a submissão, primeiramente você deverá acessar a seguinte aplicação: https://uninassau.maratona.dev/ e preencher o formulário com as credenciais de sua instância do **Watson Machine Learning** e a **URL endpoint** para scoring de seu modelo. Nessa página você será capaz de interagir com um assistente virtual criado com o Watson Assistant, que será integrado automaticamente ao seu modelo criado -- desde que as credenciais e a URL de scoring estejam corretas e o modelo funcione da maneira especificada nos notebooks fornecidos.
-
-<img src="./Docs/Images/pt1.png" alt="pt1"></a>
-
 🚨 **NÃO ESQUEÇA DE SUBMETER SUA SOLUÇÃO** 🚨
 
-Após a realização dos testes, clique no botão no canto inferior direito para SUBMETER SUA SOLUÇÃO, conforme a imagem abaixo, e preencha o formulário com seu e-mail utilizado no registro na MARATONA 2020. Não se esqueça de carregar o arquivo .zip de seu projeto no Watson Studio.
-
-<img src="./Docs/Images/pt2.png" alt="pt2"></a>
+Para realizar a submissão, primeiramente você deverá acessar a seguinte aplicação: https://uninassau.maratona.dev/ e realizar o upload de um arquivo .zip contendo **na raíz** os arquivos ``notebook.ipynb`` e ``results.csv``, conforme explicado no vídeo-tutorial. **Não altere o nome dos arquivos e certifique-se de que eles NÃO estão dentro de outras pastas no arquivo zipado**.
 
 ## 6. Sobre a avaliação
 
-Nosso sistema de avaliação automática irá calcular métricas de acurácia e pontuar sua solução de acordo com a qualidade do modelo submetido. Sua solução deve **obrigatoriamente** estar hospedada no *Watson Machine Learning*, e o arquivo .zip enviado deve conter todos os notebooks com código editado e/ou criado pelo participante, conforme claramente explicado no vídeo e nas imagens acima.
+Nosso sistema de avaliação automática irá calcular a acurácia e pontuar sua solução de acordo com as predições marcadas no arquivo ``results.csv``. O arquivo .zip enviado deve conter, além do ``results.csv``, o arquivo ``notebook.ipynb`` com todo código editado e/ou criado pelo participante, conforme claramente explicado no vídeo.
 
 O tempo de entrega não entra no cálculo da pontuação do desafio. Entretanto, para todos os participantes que entregarem esse desafio na primeira semana após o lançamento receberão um bônus de 10% da pontuação final.
 
