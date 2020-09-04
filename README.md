@@ -116,6 +116,32 @@ Caso o vídeo publicado acima não seja suficiente, você pode analisar a docume
 
 Você também pode acessar o discord oficial da Maratona 2020 para realizar perguntas e/ou interagir com outros participantes: [Discord](https://discord.gg/2NRPpcU).
 
+## Docker para execução local
+
+### Construindo o docker
+```bash
+docker-compose up -d --build
+```
+
+### Acessando o docker
+```bash
+docker exec -it desafio-2-2020 bash
+```
+
+### Executando o jupyter
+```bash
+jupyter notebook --ip 0.0.0.0 --allow-root
+```
+
+### Acessando o jupyter
+Acessar através da URL apresentada no console do Jupyter. Ex: http://127.0.0.1:8888/?token=cc7ba40131c2619338c08269709361156ffd1d2d19df1928
+
+### Como importar o seu arquivo CSV dentro do STEP 3 do Notebook 1
+```python
+df_data_1 = pd.read_csv('../Data/dataset_desafio_2.csv')
+df_data_1.head()
+```
+
 ## License
 
 Copyright 2019 Maratona Behind the Code
